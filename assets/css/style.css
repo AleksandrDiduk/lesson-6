@@ -1,0 +1,66 @@
+:root {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {  
+    font-family: "Fraklin Gotic Medium";
+    background-image: url('../img/background.png');
+    background-color: #141b23;
+    margin: 0;
+}
+.container {
+    min-height: 665px;
+    padding: 65px 50px 55px 55px;
+    background-image: url(../img/Bitmap.jpg);
+    background-repeat: no-repeat;
+    background-position: right; 
+}
+
+a {
+    text-decoration: none;
+    color: rgb(157, 166, 181);
+}
+
+.head-menu {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    color: rgba(177, 187, 203 0.87);
+}
+.head-menu-item {
+    display: inline;
+    margin-right: 15px;
+}
+
+.head-menu-item-logo {
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-right: 24px;
+}
+
+.body {
+    font-size: 13px;
+    font-family: "Fraklin Gotic Medium";
+    color: rgb(255, 255, 255);
+    margin-left: 85px; 
+    max-width: 457px;
+    overflow: hidden;   
+}
+
+.body-header {
+    font-size: 25px;
+    color: rgb(157, 166, 181); 
+}
+    
+footer {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.27);
+    bottom: 0px;
+    padding: 50px 53px;   
+}
